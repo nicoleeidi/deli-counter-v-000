@@ -1,4 +1,5 @@
 # Write your code here.
+require 'pry'
 katz_deli = []
 def line(katz_deli)
   if katz_deli.length=0
@@ -8,9 +9,10 @@ def line(katz_deli)
     katz_deli.each do |name|
       "i. name"
         i+=1
-    end 
-  end 
-end 
+    end
+    binding.pry 
+  end
+end
 
 
-  line #=> "The line is currently: 1. Ada 2. Grace 3. Kent"
+#=> "The line is currently: 1. Ada 2. Grace 3. Kent"
