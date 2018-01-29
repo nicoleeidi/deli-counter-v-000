@@ -16,7 +16,7 @@ def line(katz_deli)
     end
     result= "The line is currently: "
     i=0
-    while i<array.length
+    while i<newarray.length
       result += newarray[i]
       i+=1
     end
