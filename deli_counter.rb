@@ -26,6 +26,7 @@ def line(katz_deli)
 
   end
 end
+def take_a_number(katz_deli,name)
 
 
 #=> "The line is currently: 1. Ada 2. Grace 3. Kent"
