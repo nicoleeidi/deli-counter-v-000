@@ -5,8 +5,8 @@ def line(katz_deli)
     "The line is currently empty."
   else 
     i=1
-    katz_deli.map do |name|
-
+    katz_deli.each do |name|
+      "i. name" 
       i+=1
       
       
