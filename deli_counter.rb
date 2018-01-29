@@ -10,7 +10,7 @@ def line(katz_deli)
     newarray= []
     index=0
     katz_deli.map do |name|
-      newarray[index]= i + '. '  + name
+      newarray[index]= i.to_s + '. '  + name
         i+=1
         index+=1
     end
