@@ -1,13 +1,16 @@
 # Write your code here.
 katz_deli = []
-def line(katz_deli) 
-  if katz_deli.length=0 
+def line(katz_deli)
+  if katz_deli.length=0
     "The line is currently empty."
-  else 
+  else
     i=1
     katz_deli.each do |name|
-      "i. name" 
-      i+=1
-      
-      
+      "i. name"
+        i+=1
+    end 
+  end 
+end 
+
+
   line #=> "The line is currently: 1. Ada 2. Grace 3. Kent"
