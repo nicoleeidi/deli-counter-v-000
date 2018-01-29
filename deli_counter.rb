@@ -14,7 +14,10 @@ def line(katz_deli)
         i+=1
         index+=1
     end
-    
+    result= "The line is currently: "
+    i=0
+    while i<array.length 
+
   end
 end
 
