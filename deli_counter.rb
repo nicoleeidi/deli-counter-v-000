@@ -38,7 +38,7 @@ def now_serving(katz_deli)
     puts "Currently serving " + katz_deli[0] + "."
     array.shift
   end
-end 
+end
 
   #Welcome, Ada. You are number 1 in line.
 
