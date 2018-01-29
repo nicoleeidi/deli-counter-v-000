@@ -29,6 +29,7 @@ end
 def take_a_number(katz_deli,name)
   spot= array.index(name) + 1
   puts "Welcome, #{name}. You are number #{spot} in line."
+end
 
   #Welcome, Ada. You are number 1 in line.
 
