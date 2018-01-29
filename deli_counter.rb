@@ -18,9 +18,9 @@ def line(katz_deli)
     i=0
     while i<array.length
       result += newarray[i]
-      i+=1 
-    end 
-    return result 
+      i+=1
+    end
+    return result
 
   end
 end
