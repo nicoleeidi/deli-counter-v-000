@@ -7,11 +7,14 @@ def line(katz_deli)
 
   else
     i=1
+    newarray= []
+    index=0
     katz_deli.map do |name|
-      "i. name"
+      newarray[index]= i + ". " + name
         i+=1
+        index+=1
     end
-    binding.pry
+    
   end
 end
 
