@@ -20,7 +20,7 @@ def line(katz_deli)
       result += newarray[i]
       i+=1
     end
-    puts  result
+    puts result
 
   end
 end
