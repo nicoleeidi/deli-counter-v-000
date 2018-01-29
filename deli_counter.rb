@@ -6,6 +6,8 @@ def line(katz_deli)
   else 
     i=1
     katz_deli.map do |name|
+
+      i+=1
       
       
   line #=> "The line is currently: 1. Ada 2. Grace 3. Kent"
