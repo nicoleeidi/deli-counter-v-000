@@ -21,6 +21,7 @@ def line(katz_deli)
       result += " "
       i+=1
     end
+    result += newarray[-1]
     puts result
 
   end
