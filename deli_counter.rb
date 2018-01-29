@@ -3,7 +3,7 @@ require 'pry'
 katz_deli = []
 def line(katz_deli)
   if katz_deli.length == 0
-    "The line is currently empty."
+    puts "The line is currently empty."
 
   else
     i=1
@@ -20,7 +20,7 @@ def line(katz_deli)
       result += newarray[i]
       i+=1
     end
-    return result
+    puts  result
 
   end
 end
