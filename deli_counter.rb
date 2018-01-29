@@ -10,7 +10,7 @@ def line(katz_deli)
       "i. name"
         i+=1
     end
-    binding.pry 
+    binding.pry
   end
 end
 
